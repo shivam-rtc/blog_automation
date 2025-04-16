@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 import image from "../assets/image.png";
 
 const PostCard = ({ post }) => {
-  const date = new Date(post.createdAt).toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
+ 
 
   return (
 

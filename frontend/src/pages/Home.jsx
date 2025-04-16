@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchLatestPosts, fetchTrendingPosts } from "../features/posts/postsSlice";
-import PostCard from "../components/PostCard";
+import PostCard from "../components/postCard";
 
 const Home = () => {
   const dispatch = useDispatch();
